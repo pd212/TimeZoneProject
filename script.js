@@ -11,10 +11,7 @@ function showLocation() {
         )
             .then((res) => res.json())
             .then((data) => {
-                // console.log(data.results[0]);
-                // document.getElementById(
-                //     "current"
-                // ).innerHTML = `${data.results[0].timezone.name}`;
+                
                 document.getElementById(
                     "timezone"
                 ).innerHTML = `${data.results[0].timezone.name}`;
